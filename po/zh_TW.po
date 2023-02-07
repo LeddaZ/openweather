@@ -1,13 +1,13 @@
-# Chinese translation for gnome-shell-extension-openweather
-# gnome-shell-extension-openweather 軟體的正體中文翻譯.
+# Chinese translation for gnome-shell-extension-openweather-leddaz
+# gnome-shell-extension-openweather-leddaz 軟體的正體中文翻譯.
 # Copyright (C) 2011
-# This file is distributed under the same license as the gnome-shell-extension-openweather package.
+# This file is distributed under the same license as the gnome-shell-extension-openweather-leddaz package.
 # bill <bill_zt@sina.com>, 2011.
 # shlinux <lishaohui.qd@163.com>, 2014, 2015, 2016, 2017.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell-extension-openweather\n"
+"Project-Id-Version: gnome-shell-extension-openweather-leddaz\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 10:49-0300\n"
 "PO-Revision-Date: 2017-03-06 23:22+0800\n"
@@ -621,7 +621,7 @@ msgid "Forecast refresh interval in minutes if enabled"
 msgstr ""
 
 #: src/preferences/generalPage.js:92
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:108
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:108
 msgid "Disable Forecast"
 msgstr ""
 
@@ -630,7 +630,7 @@ msgid "Disables all fetching and processing of forecast data"
 msgstr ""
 
 #: src/preferences/generalPage.js:104
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:96
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:96
 #, fuzzy
 msgid "System Icons"
 msgstr "顯示象徵性符號"
@@ -793,7 +793,7 @@ msgid "Wind Direction Arrows"
 msgstr "使用箭頭表示風向"
 
 #: src/preferences/layoutPage.js:149
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:88
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:88
 msgid "Translate Conditions"
 msgstr "翻譯天氣狀態"
 
@@ -872,7 +872,7 @@ msgid "Add"
 msgstr ""
 
 #: src/preferences/locationsPage.js:71
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:58
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:58
 msgid "Geolocation Provider"
 msgstr "地理位置資料來源"
 
@@ -1081,117 +1081,117 @@ msgstr ""
 msgid "for details."
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:54
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:54
 msgid "Weather Provider"
 msgstr "天氣資料來源"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:62
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:62
 msgid "Temperature Unit"
 msgstr "溫度單位"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:66
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:66
 msgid "Pressure Unit"
 msgstr "氣壓單位"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:70
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:70
 msgid "Wind Speed Units"
 msgstr "風速單位"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:71
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:71
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
 "s', 'knots', 'ft/s' or 'Beaufort'."
 msgstr "選擇風速單位。允許 kph，mph，m/s，knots，ft/s 或 Beaufort。"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:75
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:75
 msgid "Wind Direction by Arrows"
 msgstr "使用箭頭表示風向"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:76
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:76
 msgid "Choose whether to display wind direction through arrows or letters."
 msgstr "選擇採用箭頭還是字母來顯示風向。"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:80
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:80
 msgid "City to be displayed"
 msgstr "要顯示的城市"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:84
 msgid "Actual City"
 msgstr "實際城市"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:92
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:92
 msgid "OpenWeatherMap Multilingual Support (weather descriptions only)"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:100
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:100
 msgid "Temperature in Panel"
 msgstr "面板上顯示溫度"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:104
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:104
 msgid "Conditions in Panel"
 msgstr "面板上顯示天氣狀態"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:112
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:112
 msgid "Conditions in Forecast"
 msgstr "顯示預報天氣狀態"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:116
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:120
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:116
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:120
 msgid "Position in Panel"
 msgstr "面板上的位置"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:124
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:124
 msgid "Horizontal position of menu-box."
 msgstr "選單的水平位置。"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:128
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:128
 msgid "Refresh interval (actual weather)"
 msgstr "更新間隔（實際天氣）"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:132
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:132
 msgid "Maximal length of the location text"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:136
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:136
 msgid "Refresh interval (forecast)"
 msgstr "更新間隔（預報資訊）"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:140
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:140
 msgid "Center forecastbox."
 msgstr "將預報框置中顯示。"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:144
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:144
 msgid "Always keep forecast expanded"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:148
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:148
 msgid "Number of days in forecast"
 msgstr "預報的天數"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:152
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:152
 msgid "Maximal number of digits after the decimal point"
 msgstr "小數點後的最大位數"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:156
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:156
 msgid "Your personal API key from openweathermap.org"
 msgstr "openweathermap.org 的個人 API 金鑰"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:160
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:160
 msgid "Use the extensions default API key from openweathermap.org"
 msgstr "使用本擴充套件的 openweathermap.org API 金鑰"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:164
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:164
 msgid "Your personal AppKey from developer.mapquest.com"
 msgstr "developer.mapquest.com 的個人應用金鑰"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:168
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:168
 msgid "Seconds to delay popup initialization and data fetch on the first load"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:172
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:172
 msgid "Default width for the preferences window"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:176
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:176
 msgid "Default height for the preferences window"
 msgstr ""

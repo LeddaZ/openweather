@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Jens Lody
-# This file is distributed under the same license as the gnome-shell-extension-openweather package.
+# This file is distributed under the same license as the gnome-shell-extension-openweather-leddaz package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell-extension-openweather 1.1\n"
+"Project-Id-Version: gnome-shell-extension-openweather-leddaz 1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 10:49-0300\n"
 "PO-Revision-Date: 2017-09-08 20:50+0300\n"
@@ -616,7 +616,7 @@ msgid "Forecast refresh interval in minutes if enabled"
 msgstr ""
 
 #: src/preferences/generalPage.js:92
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:108
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:108
 msgid "Disable Forecast"
 msgstr ""
 
@@ -625,7 +625,7 @@ msgid "Disables all fetching and processing of forecast data"
 msgstr ""
 
 #: src/preferences/generalPage.js:104
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:96
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:96
 #, fuzzy
 msgid "System Icons"
 msgstr "Symboliset kuvakkeet"
@@ -786,7 +786,7 @@ msgid "Wind Direction Arrows"
 msgstr "Tuulen suunta nuolina"
 
 #: src/preferences/layoutPage.js:149
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:88
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:88
 msgid "Translate Conditions"
 msgstr "Käännä olosuhteet"
 
@@ -865,7 +865,7 @@ msgid "Add"
 msgstr ""
 
 #: src/preferences/locationsPage.js:71
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:58
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:58
 msgid "Geolocation Provider"
 msgstr "Sijainnin tarjoaja"
 
@@ -1074,23 +1074,23 @@ msgstr ""
 msgid "for details."
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:54
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:54
 msgid "Weather Provider"
 msgstr "Säätietojen tarjoaja"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:62
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:62
 msgid "Temperature Unit"
 msgstr "Lämpötilan yksikkö"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:66
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:66
 msgid "Pressure Unit"
 msgstr "Paineen yksikkö"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:70
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:70
 msgid "Wind Speed Units"
 msgstr "Tuulen nopeuden yksiköt"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:71
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:71
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
 "s', 'knots', 'ft/s' or 'Beaufort'."
@@ -1098,95 +1098,95 @@ msgstr ""
 "Valitse yksikkö tuulen nopeudelle. Sallitut arvot ovat 'kph', 'mph', 'm/s', "
 "'knots', 'ft/s' tai 'bofori'."
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:75
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:75
 msgid "Wind Direction by Arrows"
 msgstr "Tuulen suunta nuolina"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:76
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:76
 msgid "Choose whether to display wind direction through arrows or letters."
 msgstr "Valitse näytetäänkö tuulen suunta nuolina vai kirjaimina."
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:80
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:80
 msgid "City to be displayed"
 msgstr "Näytettävä kaupunki"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:84
 msgid "Actual City"
 msgstr "Todellinen kaupunki"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:92
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:92
 msgid "OpenWeatherMap Multilingual Support (weather descriptions only)"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:100
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:100
 msgid "Temperature in Panel"
 msgstr "Lämpötila paneelissa"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:104
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:104
 msgid "Conditions in Panel"
 msgstr "Olosuhteet paneelissa"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:112
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:112
 msgid "Conditions in Forecast"
 msgstr "Olosuhteet ennusteessa"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:116
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:120
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:116
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:120
 msgid "Position in Panel"
 msgstr "Sijainti paneelissa"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:124
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:124
 msgid "Horizontal position of menu-box."
 msgstr "Valikkolaatikon vaakasuuntainen sijainti."
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:128
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:128
 msgid "Refresh interval (actual weather)"
 msgstr "Päivitysväli (säätiedot)"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:132
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:132
 msgid "Maximal length of the location text"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:136
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:136
 msgid "Refresh interval (forecast)"
 msgstr "Päivitysväli (ennuste)"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:140
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:140
 msgid "Center forecastbox."
 msgstr "Keskitä ennustelaatikko."
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:144
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:144
 msgid "Always keep forecast expanded"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:148
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:148
 msgid "Number of days in forecast"
 msgstr "Päivien määrä ennusteessa"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:152
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:152
 msgid "Maximal number of digits after the decimal point"
 msgstr "Desimaalipilkun jälkeen tulevien numeroiden maksimimäärä"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:156
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:156
 msgid "Your personal API key from openweathermap.org"
 msgstr "Henkilökohtainen API-avaimesi openweathermap.orgista"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:160
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:160
 msgid "Use the extensions default API key from openweathermap.org"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:164
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:164
 msgid "Your personal AppKey from developer.mapquest.com"
 msgstr "Henkilökohtainen AppKey developer.mapquest.comista"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:168
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:168
 msgid "Seconds to delay popup initialization and data fetch on the first load"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:172
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:172
 msgid "Default width for the preferences window"
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:176
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:176
 msgid "Default height for the preferences window"
 msgstr ""

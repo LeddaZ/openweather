@@ -1,6 +1,6 @@
-# Russian translation for gnome-shell-extension-openweather
+# Russian translation for gnome-shell-extension-openweather-leddaz
 # Copyright (C) 2015
-# This file is distributed under the same license as the gnome-shell-extension-openweather package.
+# This file is distributed under the same license as the gnome-shell-extension-openweather-leddaz package.
 # Gankov Andrey <gav@qsolution.ru>, 2011.
 # Stas Solovey <whats_up@tut.by>, 2012.
 # Timon <timosha@gmail.com>, 2013.
@@ -582,7 +582,7 @@ msgid "Forecast refresh interval in minutes if enabled"
 msgstr "Период обновления погоды в минутах (если включено)"
 
 #: src/preferences/generalPage.js:92
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:108
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:108
 msgid "Disable Forecast"
 msgstr "Отключить прогноз"
 
@@ -591,7 +591,7 @@ msgid "Disables all fetching and processing of forecast data"
 msgstr "Отключает всю выборку и обработку данных прогноза"
 
 #: src/preferences/generalPage.js:104
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:96
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:96
 msgid "System Icons"
 msgstr "Использовать системные значки"
 
@@ -751,7 +751,7 @@ msgid "Wind Direction Arrows"
 msgstr "Отображать направление ветра стрелками"
 
 #: src/preferences/layoutPage.js:149
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:88
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:88
 msgid "Translate Conditions"
 msgstr "Переводить погодные условия"
 
@@ -824,7 +824,7 @@ msgid "Add"
 msgstr "Добавить"
 
 #: src/preferences/locationsPage.js:71
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:58
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:58
 msgid "Geolocation Provider"
 msgstr "Источник геоданных"
 
@@ -1025,23 +1025,23 @@ msgstr "Стандартная общественная лицензия GNU, в
 msgid "for details."
 msgstr "для подробностей."
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:54
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:54
 msgid "Weather Provider"
 msgstr "Источник данных о погоде"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:62
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:62
 msgid "Temperature Unit"
 msgstr "Единицы измерения температуры"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:66
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:66
 msgid "Pressure Unit"
 msgstr "Единицы измерения давления"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:70
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:70
 msgid "Wind Speed Units"
 msgstr "Единицы измерения скорости ветра"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:71
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:71
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
 "s', 'knots', 'ft/s' or 'Beaufort'."
@@ -1049,97 +1049,97 @@ msgstr ""
 "Выберите единицу изменения скорости ветра. Допустимые значения: км/ч, мили в "
 "час, м/с, узлы, фут/с или по шкале Бофорта."
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:75
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:75
 msgid "Wind Direction by Arrows"
 msgstr "Отображать направление ветра стрелками"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:76
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:76
 msgid "Choose whether to display wind direction through arrows or letters."
 msgstr "Выберите как отображать направления ветра - стрелками или буквами."
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:80
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:80
 msgid "City to be displayed"
 msgstr "Город для отображения"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:84
 msgid "Actual City"
 msgstr "Текущий город"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:92
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:92
 msgid "OpenWeatherMap Multilingual Support (weather descriptions only)"
 msgstr "Многоязычная поддержка OpenWeatherMap (только описание погоды)"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:100
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:100
 msgid "Temperature in Panel"
 msgstr "Отображать температуру на панели"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:104
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:104
 msgid "Conditions in Panel"
 msgstr "Отображать погодные условия на панели"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:112
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:112
 msgid "Conditions in Forecast"
 msgstr "Отображать погодные условия в прогнозе"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:116
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:120
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:116
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:120
 msgid "Position in Panel"
 msgstr "Положение на панели"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:124
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:124
 msgid "Horizontal position of menu-box."
 msgstr "Положение окна по горизонтали."
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:128
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:128
 msgid "Refresh interval (actual weather)"
 msgstr "Интервал обновления (текущая погода)"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:132
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:132
 msgid "Maximal length of the location text"
 msgstr "Максимальная длина текста местоположения"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:136
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:136
 msgid "Refresh interval (forecast)"
 msgstr "Интервал обновления (для прогноза)"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:140
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:140
 msgid "Center forecastbox."
 msgstr "Центрировать прогноз."
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:144
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:144
 msgid "Always keep forecast expanded"
 msgstr "Всегда держать прогноз погоды развернутым"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:148
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:148
 msgid "Number of days in forecast"
 msgstr "Число дней в прогнозе"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:152
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:152
 msgid "Maximal number of digits after the decimal point"
 msgstr "Число знаков после запятой"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:156
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:156
 msgid "Your personal API key from openweathermap.org"
 msgstr "Персональный API ключ от openweathermap.org"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:160
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:160
 msgid "Use the extensions default API key from openweathermap.org"
 msgstr "Использовать API ключ дополнения от openweathermap.org"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:164
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:164
 msgid "Your personal AppKey from developer.mapquest.com"
 msgstr "Персональный AppKey от developer.mapquest.com"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:168
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:168
 msgid "Seconds to delay popup initialization and data fetch on the first load"
 msgstr ""
 "Секунды для задержки инициализации всплывающего окна и выборки данных при "
 "первой загрузке"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:172
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:172
 msgid "Default width for the preferences window"
 msgstr "Ширина окна настроек по умолчанию"
 
-#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:176
+#: schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml:176
 msgid "Default height for the preferences window"
 msgstr "Высота окна настроек по умолчанию"

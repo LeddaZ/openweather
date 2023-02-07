@@ -4,7 +4,7 @@
     <img src="https://gitlab.com/skrewball/assets/-/raw/main/openweather-screenshot.png" width="600">
 </p>
 
-OpenWeather (*gnome-shell-extension-openweather*) is a simple extension for displaying weather conditions and forecasts for any location on Earth in the GNOME Shell. It provides support for multiple locations with editable names using coordinates to store the locations, a beautiful layout, and more.
+OpenWeather (*gnome-shell-extension-openweather-leddaz*) is a simple extension for displaying weather conditions and forecasts for any location on Earth in the GNOME Shell. It provides support for multiple locations with editable names using coordinates to store the locations, a beautiful layout, and more.
 
 Weather data is fetched from [OpenWeatherMap](https://openweathermap.org) including 3 hour forecasts for up to 5 days.
 
@@ -26,7 +26,7 @@ Visit OpenWeather on the [Official GNOME Extensions](https://extensions.gnome.or
 
 ### Package Manager
 
-These are the currently available 'official' release packages that align with the E.G.O release version. There is a [package in the AUR](https://aur.archlinux.org/packages/gnome-shell-extension-openweather) that I maintain myself, and `Artem Polishchuk` maintains a package in the [official Fedora repos](https://src.fedoraproject.org/rpms/gnome-shell-extension-openweather).
+These are the currently available 'official' release packages that align with the E.G.O release version. There is a [package in the AUR](https://aur.archlinux.org/packages/gnome-shell-extension-openweather-leddaz) that I maintain myself, and `Artem Polishchuk` maintains a package in the [official Fedora repos](https://src.fedoraproject.org/rpms/gnome-shell-extension-openweather-leddaz).
 
 Installing the extension this way provides a system wide installation.
 
@@ -35,7 +35,7 @@ Installing the extension this way provides a system wide installation.
 Install using your favourite AUR helper, for example:
 
 ```
-paru -S gnome-shell-extension-openweather
+paru -S gnome-shell-extension-openweather-leddaz
 ```
 
 #### Fedora
@@ -43,7 +43,7 @@ paru -S gnome-shell-extension-openweather
 To install from the official fedora repos simply run:
 
 ```
-sudo dnf install gnome-shell-extension-openweather
+sudo dnf install gnome-shell-extension-openweather-leddaz
 ```
 
 <br>
@@ -80,7 +80,7 @@ make && make install
 
 ## Support OpenWeather
 
-OpenWeather (*gnome-shell-extension-openweather*) is provided completely free of charge. If you enjoy using this extension and would like to help support the project, please feel free to hit the button below!
+OpenWeather (*gnome-shell-extension-openweather-leddaz*) is provided completely free of charge. If you enjoy using this extension and would like to help support the project, please feel free to hit the button below!
 
 <p align="left">
     <a href="https://www.paypal.com/donate/?hosted_button_id=VZ7VLXPU2M9RQ" target="_blank"><img src="https://gitlab.com/skrewball/assets/-/raw/main/paypal-donate.png" width="250"></a>
@@ -99,7 +99,7 @@ Or you can support my work by sending some crypto:
 
 Bugs should be reported [here](https://gitlab.com/skrewball/openweather/issues) on the GitLab issues page.
 
-When submitting a bug report, please make sure to provide as much information as you can about the issue, your Linux distribution, GNOME Shell version, and OpenWeather (*gnome-shell-extension-openweather*) version.
+When submitting a bug report, please make sure to provide as much information as you can about the issue, your Linux distribution, GNOME Shell version, and OpenWeather (*gnome-shell-extension-openweather-leddaz*) version.
 
 <br>
 

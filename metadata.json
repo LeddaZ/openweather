@@ -4,7 +4,7 @@
   "shell-version": ["42", "43"],
   "url": "https://github.com/LeddaZ/openweather",
   "uuid": "openweather-extension@leddaz.it",
-  "settings-schema": "org.gnome.shell.extensions.openweather",
-  "gettext-domain": "gnome-shell-extension-openweather",
+  "settings-schema": "org.gnome.shell.extensions.openweather-leddaz",
+  "gettext-domain": "gnome-shell-extension-openweather-leddaz-leddaz",
   "version": 120
 }

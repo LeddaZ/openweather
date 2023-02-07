@@ -1,14 +1,14 @@
 # Basic Makefile
 
-PKG_NAME = gnome-shell-extension-openweather
-UUID = openweather-extension@jenslody.de
+PKG_NAME = gnome-shell-extension-openweather-leddaz
+UUID = openweather-extension@leddaz.it
 BASE_MODULES = metadata.json COPYING AUTHORS
 SRC_MODULES = extension.js openweathermap.js prefs.js stylesheet.css
 PREFS_MODULES = generalPage.js layoutPage.js locationsPage.js aboutPage.js
 EXTRA_DIRECTORIES = media
 TOLOCALIZE = $(addprefix src/, extension.js openweathermap.js prefs.js) \
              $(addprefix src/preferences/, $(PREFS_MODULES)) \
-             schemas/org.gnome.shell.extensions.openweather.gschema.xml
+             schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml
 MSGSRC = $(wildcard po/*.po)
 
 # Packagers: Use DESTDIR for system wide installation
@@ -43,7 +43,7 @@ clean:
 
 extension: ./schemas/gschemas.compiled $(MSGSRC:.po=.mo)
 
-./schemas/gschemas.compiled: ./schemas/org.gnome.shell.extensions.openweather.gschema.xml
+./schemas/gschemas.compiled: ./schemas/org.gnome.shell.extensions.openweather-leddaz.gschema.xml
 	glib-compile-schemas ./schemas/
 
 potfile: ./po/openweather.pot
